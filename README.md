@@ -1,9 +1,5 @@
-<div align="center">
-  <img src = "https://github.com/Arco-de-Treinamento/.github/blob/main/profile/assets/Character_Selection_2.png" width="200px">
-</div>
-
 <h1 align = "center">
-  Shishin no Ken
+  Greve Loop
   <p align="center">
     <img src="https://img.shields.io/github/last-commit/Arco-de-Treinamento/Shishin-no-Ken/main">
     <img src="https://img.shields.io/github/license/Arco-de-Treinamento/Shishin-no-Ken">

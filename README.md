@@ -22,6 +22,8 @@
 <h2 id = "sobre-este-projeto">🕹️ Sobre este projeto</h2>
 Este é apenas mais um template seguindo a temática de Dragon Ball. Seu nome remete a técnica "Shishin no Jen", do Tenshinhan, que cria clones de si.
 
+Link provisório da aplicação: https://livro-jogo-rho.vercel.app
+
 <hr>
 
 <h2 id="consideracoes">🎮 Considerações</h2>

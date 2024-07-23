@@ -1,0 +1,514 @@
+:: StoryTitle
+Greve Loop
+
+
+:: StoryData
+{
+  "ifid": "7D90C32B-7E24-4499-85CE-492121D68C19",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Intro",
+  "zoom": 0.6
+}
+
+
+:: \ 4-protesto {"position":"1000,1900","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[É agora ou nada! 
+]
+
+— É minha última chance. Vou criar um protesto!
+
+//Presado sindicato,
+
+Entramos em contato para informar que, diante do acordo de todos do corpo docente, iremos promover um protesto em frente aos prédios do campus.
+//
+* [[Abrir caixa de entrada do e-mail->noticias-5]] 
+* [[Abrir caixa de entrada do e-mail->noticias-7]] 
+
+
+:: 0-buscando-infos {"position":"750,850","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Parece que ninguém pode nos ajudar nisso. Já que temos o e-mail do coordenador, por que não tenta entrar em contato com ele?
+]
+
+— Eu estou com um pouco de fome, talvez coma antes.
+
+* [[Enviar e-mail para prof. Banner->intro-prof-banner]]
+* [[Enviar e-mail para prof. Carvalho->intro-prof-carvalho]]
+* [[Contatar a coordenação do curso->0-coordenacao]]
+* [[Abrir caixa de entrada do e-mail->noticias-1]] 
+
+
+:: 0-coord-organizacao {"position":"600,1150","size":"100,100"}
+— Acho que seria melhor procurar a organização da greve.
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Vai tentar mandar outro e-mail para coordenação? Gostou deles, hein? Por que não aproveita para perguntar da nova grade?
+]
+
+//Prezada coordenação,
+
+Gostaria de saber quem está organizando e como poderia contactá-lo. Acredito que podemos cooperar para as movimentações.//
+
+''Resposta:
+''
+//A greve está sendo organizada pelo sindicato, formado pelos professores do campus. Você pode tentar contactá-los pelo email da instituição
+
+Sindicato da UFAC
+contato: sindicato@ufac.edu
+//
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Agora você tem mais cantatinhos no e-mail. Uma pena que o tempo está passando. Você deveria entrar em contato com o sindicato logo.
+]
+
+* [[Enviar e-mail para o sindicato->1-sindicato]]
+
+
+
+:: 0-coord-saida {"position":"900,1150","size":"100,100"}
+— Acho que seria mais rápido tentar sair daqui logo.
+
+//Prezados senhores coordenadores,
+
+Fui informado que estamos em greve e que as atividades foram suspensas, no entanto, estou preso no campus e gostaria de saber se seria possível abrir o prédio.//
+
+''Resposta:
+''
+//Olá, estamos em greve desde a última sexta e não teremos nenhuma atividade no campus até o retorno. Reintegramos que todas as salas foram verificadas antes da consolidação da greve e que não será possível abrir o prédio para recuperar pertences nesse período. 
+
+Contate seus professores.//
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[É não foi dessa vez de novo. O que você quer fazer agora?
+]
+
+* [[Buscar mais informações da greve->0-coord-situacao]] 
+* [[Enviar e-mail para Prof.Banner->intro-prof-banner]] 
+* [[Enviar e-mail para o Prof. Carvalho->intro-prof-carvalho]] 
+
+
+:: 0-coord-situacao {"position":"750,1150","size":"100,100"}
+— Deve ser mais rápido perguntar o que está acontecendo.
+
+//Prezados senhores coordenadores,
+
+Fui informado que estamos em greve e que as atividades foram suspensas, mas gostaria de compreender melhor o que está acontecendo e quem devo contactar para abrir o campus.
+//
+
+''Resposta:
+''
+//Estamos em greve desde a última sexta e não teremos nenhuma atividade no campus até o retorno. Não estamos autorizados a abrir salas dos prédios para recuperação de bens, mas caso julgue necessário, você pode abrir um chamado junto a Reitoria do campus. 
+
+Reintegramos que todas as salas foram verificadas antes da consolidação da greve e que não será possível abrir o prédio para recuperar pertences nesse período. 
+
+Reitoria do UFAC
+contato: reitoria@ufac.edu//
+
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Ao menos agora temos um norte. Podemos tentar entrar em contato com a organização da greve também. Quem sabe alguém tem compaixão de você a abre as salas do seu trono?
+]
+
+* [[Entrar em contato com o reitor->2-reitoria]]
+* [[Questionar a organização da greve->0-coord-organizacao]] 
+
+
+
+:: 0-coordenacao {"position":"750,1000","size":"100,100"}
+— Bem, eu estou com um pouco de fome, mas vou tentar enviar esse e-mail primeiro.
+
+* [[Perguntar o que está acontecento->0-coord-situacao]]
+* [[Perguntar como sair do prédio->0-coord-saida]]
+* [[Perguntar quem está organizando a greve->0-coord-organizacao]]
+
+
+
+:: 1-coordenador {"position":"750,1600","size":"100,100"}
+— Acho que as coisas estão andando. Talvez seja mais rápido promover alguma mobilização aqui.
+//
+Sr. coordenador
+
+Entrei em contato com o sindicato e fui informado dos trâmites da greve. O que poderíamos fazer mobilizar a comunidade?
+//
+''Resposta:
+''
+//Olá,
+
+O sindicato entrou em acordo com seus integrantes e estamos tentando promover um acordo com a universidade. O apoio dos estudantes será bem-vindo!//
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Agora você se vê num impasse, não é? O tempo está passando e os dias daquela pesquisa estranhamente específica estão se acabando. O que você decidirá fazer?
+]
+
+* [[Organizar uma manifestação->3-manifestacao]]
+* [[Conversar com o reitor->2-reitoria]] 
+
+
+:: 1-motivo {"position":"600,1450","size":"100,100"}
+— Acho que se souber os motivos da greve vou conseguir bolar algo
+
+//Prezado sindicato,
+
+fui informado por meus professores que o campus da UFAC está em greve por tempo indeterminado e gostaria de saber a pauta da movimentação.//
+
+''Resposta:
+''
+//Ola,
+
+O sindicato entrou em acordo com seus integrantes pela pauta de um trem-bala entre todos os 8 setores, recreio prolongado e escala de aula 4x3. Contate o coordenador do seu campus para discutir sobre as atividades internas nesse período.//
+
+— Jogado para outro professor de novo. Dessa forma você irá morrer de fome antes do fim dessa greve. Você deveria tentar comer algo.
+
+* [[Enviar e-mail para o coordenador->1-coordenador]]
+
+
+:: 1-participantes {"position":"900,1450","size":"100,100"}
+— Se soubermos todos os participantes do movimento, podemos iniciar algum movimento para sair daqui logo.
+
+//Prezado sindicato,
+
+fui informado por meus professores que o campus da UFAC está em greve por tempo indeterminado e gostaria de saber quais os participantes para podermos nos organizar melhor. Acredito que corpo estudantil possa ser útil.
+//
+''Resposta:
+''
+//Ola,
+
+O sindicato entrou em acordo com seus integrantes com alguma pauta necessária para o campus. Estão participando desse movimento todos os professores da Universidade Facultativa do Açude Médio do Centro.
+//
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Jogado para outro professor de novo. Dessa forma você irá morrer de fome antes do fim dessa greve. Você deveria tentar comer algo.
+]
+
+* [[Enviar e-mail para o Prof. Carvalho->1-prof-carvalho]]
+* [[Enviar e-mail para o Prof. Banner->1-prof-banner]]
+* [[Enviar e-mail para o Coordenador do Campus->1-coordenador]] 
+
+
+:: 1-prof-banner {"position":"900,1600","size":"100,100"}
+— Acho que as coisas estão andando. Talvez seja mais rápido promover alguma mobilização aqui. 
+
+//Prof. Carvalho,
+
+Entrei em contato com o sindicato e fui informado dos trâmites da greve. O que poderíamos fazer mobilizar a comunidade?//
+
+''Resposta:
+''
+//Olá,
+
+O corpo docente não está autorizado a promover qualquer mobilização sem antes entrar em comum acordo pelo sindicato. As atividades seguem suspensas até segunda ordem. Contate o coordenador.//
+
+— Bem, parece que deveria ter ido falar direto com o coordenador. Odeio essa burocracia toda.
+
+* [[Entrar em contato com o coordenador->1-coordenador]] 
+
+
+:: 1-prof-carvalho {"position":"1050,1600","size":"100,100"}
+— Acho que as coisas estão andando. Talvez seja mais rápido promover alguma mobilização aqui.
+
+//Prof. Carvalho,
+
+Entrei em contato com o sindicato e fui informado dos trâmites da greve. O que poderíamos fazer mobilizar a comunidade?//
+
+''Resposta:
+''
+//Olá,
+
+Ótimo que o corpo estudantil esteja se mobilizando em conjunto com o sindicato. Nós estamos fazendo diversas mobilizações para promover um acordo com a universidade. Por que não entra em contato com o coordenador? Ele pode te ajudar melhor com isso.//
+
+— Bem, parece que deveria ter ido falar direto com o coordenador. Odeio essa burocracia toda.
+
+* [[Entrar em contato com o coordenador->1-coordenador]] 
+
+
+:: 1-sindicato {"position":"750,1300","size":"100,100"}
+— Bem, o que podemos fazer primeiro...
+
+* [[Questionar os participantes da greve->1-participantes]]
+* [[Perguntar por que estamos de greve->1-motivo]]
+* [[Abrir caixa de entrada do e-mail->noticias-2]] 
+
+
+
+:: 2-reitoria {"position":"600,1750","size":"100,100"}
+— Vou tentar um acordo de qualquer forma!
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Você me parece desesperado.
+]
+
+//Sr. Reitor,
+
+Estamos há dias em conversas com os docentes e elencamos alguns pedidos. Entre eles está um trem-bala para todos os 8 setores, recreio prolongado e escala de aula 4x3.
+
+Existe alguma possibilidade de acordo?//
+
+''Resposta:
+''
+//Podemos avaliar alguns pontos, mas nem todos serão válidos. Infelizmente é inviável um trem-bala.//
+
+— As opções estão acabando.
+
+* [[Abrir caixa de entrada do e-mail->noticias-3]] 
+* [[Começar os protestos!-> 4-protesto]]
+* [[Tentar um acordo->5-acordo]]
+
+
+:: 3-manifestacao {"position":"900,1750","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Parece que o jeito será você mesmo criar algo.
+]
+
+— Preciso correr, vou criar um protesto! 
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Excelente, isso deve assegurar as coisas.
+]
+
+//Prezado sindicato,
+
+os alunos e corpo docente do campus da UFAC está organizando um protesto em frente aos prédios com o intuito de promover campanhas de mobilização. Como devemos prosseguir.//
+
+''Resposta:
+''
+//Nos do sindicato apreciamos o movimento. Antes aconselhamos que busque o reitor da universidade.
+//
+
+— Parece que tenho algumas opções...
+
+* [[Abrir caixa de entrada do e-mail->noticias-4]] 
+* [[Falar com o reitor->2-reitoria]] 
+* [[Começar os protestos!-> 4-protesto]]
+
+
+:: 5-acordo {"position":"500,1900","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[É agora ou nada! 
+]
+
+— É minha última chance. Vou assinar um acordo apenas com o essencial!
+
+//Presado Reitor,
+
+Entramos em contato para informar que, diante do acordo de todos do corpo docente, iremos aceitar o acordo com apenas a escala 4x3, considerando que promover 3 dias de folga aumenta comprovadamente a produtividade.//
+
+* [[Abrir caixa de entrada do e-mail->noticias-6]] 
+* [[Abrir caixa de entrada do e-mail->noticias-8]] 
+
+
+:: Intro {"position":"750,250","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Boa garoto! Tomou 4 litros de açaí de novo, não foi? 
+]
+— Onde eu estou? Que droga, está tudo escuro. Cadê minhas coisas? 
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Você está na **UFAC**, gastou toda a grana do estágio no Renato Lanches e acabou entrando em coma no banheiro do campus. Faz 3 dias que estamos nessa. A nossa sorte e que já está no banheiro.]
+
+— E desde quando eu tenho um narrador pessoal? Certeza que a comida estava batizada...
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[
+Isso não importa para você. Deveria se preocupar em sair daqui primeiro. Depois nos passamos um psicologo.
+]
+Por que não dá uma olhada em sua volta?
+
+* [[Olhar para a direita->intro-direita]]
+* [[Olhar para a esqueda->intro-esquerda]]
+
+
+:: intro-celular {"position":"750,550","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Olha só, ainda está ligando! Que marca é essa? Nokia? Você deveria tentar mandar mensagem para alguém. Precisamos daqui logo.
+]
+
+— Não tenho nenhuma rede além do e-mail. Removi todas elas para aumentar o foco.
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Outra vítima do coach de produtividade...
+
+Por que não dá uma olhada na caixa de entrada?
+]
+
+* [[Abrir caixa de entrada do e-mail->noticias-1]] 
+
+— Caramba, estamos em greve! Como eu vou sair disso agora? Preciso dá um jeito nisso com urgência. Não irei durar muito com o que temos aqui.
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Olha só que bacana, segundo aquela pesquisa estranhamente duvidosa, você ainda pode viver por uma semana! Isso significar que terá que correr, ainda mais com essa bateria caindo pouco a pouco.
+
+Por que não usa o email para tentar contato com algum professor?
+]
+
+* [[Mandar e-mail para o Prof. Carvalho->intro-prof-carvalho]]
+* [[Mandar e-mail para o Prof. Banner->intro-prof-banner]]
+
+
+:: intro-direita {"position":"900,400","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Você encontrou a sua bolsa! Seus olhos devem estar se acostumando com isso.
+]
+
+— Eu tinha comprado algumas bolachas, vamos ver... Achei!
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Olha só o que temos aqui: 2 trelosos... 3 Bokus... alimentação ta em dias, hein?
+]
+
+— Bem, melhor do que nada. Deve ter algo mais aqui...
+
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Nada, só esses lanches e o seu celular.
+]
+
+* [[Abrir o celular->intro-celular]]
+* [[Olhar para a esquerda->intro-esquerda]]
+
+
+:: intro-esquerda {"position":"600,400","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXXXXXXXXXXXX=")[Você encontrou... o papel higiênico? Só isso?
+]
+
+- Não me lembro de ter usado. Isso será útil.
+
+* [[Olhar para direita->intro-direita]]
+
+
+:: intro-prof-banner {"position":"900,700","size":"100,100"}
+— Bem, eu estou com um pouco de fome, mas vou tentar enviar esse e-mail primeiro.
+
+//Querido Prof. Banner,
+
+Vi na newsletter do campus que estamos em greve. Gostaria de saber como poderia sair do campus e se seria possível abrir o prédio para mim, já que fiquei preso em um dos banheiros.
+
+Desde já, agradeço o retorno.
+//
+
+''Resposta:
+''
+//Olá, senhor aluno sem nome. A greve se iniciou na última sexta e está sendo organizada pelo sindicato. Ainda estamos sem previsão de retorno das atividades. Com os projetos suspensos, ninguém está autorizado a abrir os prédios ou laboratórios. 
+
+Se ainda tiver alguma dúvida, contacte o coordenador do curso:
+
+Secretaria do UFAC
+contato: secretaria@ufac.edu//
+
+[[Voltar->0-buscando-infos]]
+
+
+:: intro-prof-carvalho {"position":"600,700","size":"100,100"}
+— Bem, eu estou com um pouco de fome, mas vou tentar enviar esse e-mail primeiro.
+
+//Querido Prof. Carvalho,
+
+Vi na newsletter do campus que estamos em greve. Gostaria de saber como poderia sair do campus e se seria possível abrir o prédio para mim, já que fiquei preso em um dos banheiros.
+
+Desde já, agradeço o retorno.//
+
+''Resposta:
+''
+//Eu não tenho informações sobre esse procedimento, mas estamos de greve. Nossas as atividades estão suspensas até segunda ordem. Procure a coordenação do curso.
+
+Secretaria do UFAC
+contato: secretaria@ufac.edu//
+
+[[Voltar->0-buscando-infos]]
+
+
+:: noticias-1 {"position":"1900,500","size":"100,100"}
+''(b4r:"none","none","solid")+(b4r-colour:white)[Sexta-feira, 07 de agosto de 2029 - Edição #105]
+''
+''UFAC entra em greve nessa sexta
+''
+A UFAC entrou em sua primeira greve generalizada dos últimos 20 anos. Entre os pedidos está um trem-bala entre todos os 8 setores, recreio prolongado e escala de aula 4x3.
+
+Todos os setores da Universidade Facultativa do Açude Médio do Centro foram evacuados e as atividades seguem suspensas por tempo indeterminado.
+
+''Lanchonete do setor 7 suspensa pela vigilância sanitária
+''
+Após algumas denúncias de intoxicação alimentar, a Renato Lanches foi fechada por tempo indeterminado sob a suspeita de adicionar cafeína em estado bruto no açaí para causar dependência. O excesso de cafeína pode causar problemas intestinais e levar ao coma.
+
+''Pesquisa peculiar extremamente específica testa os limites da alimentação
+''
+Um grupo de estudantes da turma 42 de Engenharia de Alimentos realizou um estudo que buscava determinar quanto tempo um ser humano poderia viver com exatos 2 pacotes de treloso e 3 pacotes de pipoca Bokus.
+
+Segundo o artigo, se alimentando apenas de guloseimas e água, um indivíduo poderia viver por uma semana inteira antes de ter sérias complicações intestinais.
+
+
+:: noticias-2 {"position":"1900,625","size":"100,100"}
+''(b4r:"none","none","solid")+(b4r-colour:white)[Segunda-feira, 10 de agosto de 2029 - Edição #106]''
+
+''Greve na UFAC - Primeiras Movimentações
+''
+Após 3 dias de greve, temos as primeiras movimentações na UFAC. Segundo o Sindicato da Universidade Facultativa do Açude Médio do Centro, ainda não temos previsão para retomada das atividades.
+
+A UFAC entrou em sua primeira greve generalizada dos últimos 20 anos. Entre os pedidos está o uso de escala de aula 4x3, proposta pelos próprios estudantes.
+
+''Lanchonete do setor 7 - Primeiras vítimas começam a acordar
+''
+Com as atividades suspensas desde a última sexta-feira por suspeita de intoxicação alimentar, a Renato Lanches tem seus primeiros clientes recobrando a consciência após dias de internação.
+
+Segundo eles, não tinha nada de errado com a comida. "Era viciante!", relata um cliente em abstinência. 
+
+
+
+
+:: noticias-3 {"position":"1900,750","size":"100,100"}
+''(b4r:"none","none","solid")+(b4r-colour:white)[Terça-feira, 11 de agosto de 2029 - Edição #107]''
+
+''Reitor da UFAC fala pela primeira vez sobre a Greve
+''
+Com 4 dias de greve, a UFAC enfrenta o descontentamento de alguns estudantes. "Esses assuntos deviam ser tratados com calma. Precisamos analisar todas as possibilidades" diz o Reitor em entrevista. 
+
+É possível notar alguma movimentação em direção a um acordo por porte do sindicato, mas ainda é cedo para afirmar algo sobre o fim da greve.
+
+''Caso Renato Lanches: A volta da lanchonete
+''
+Após as suspeitas de intoxicação alimentar em uma das lanchonetes do setor 7 da UFAC, cresce o número de pedidos pela volta das atividades do estabelecimento.
+
+Os estudantes alegam que precisam com urgência comer o açaí do local. Alguns deles apresentaram um comportamento agressivo em relação à medida protetiva tomada para vigilância sanitária.
+
+
+
+:: noticias-4 {"position":"1900,875","size":"100,100"}
+''(b4r:"none","none","solid")+(b4r-colour:white)[Quarta-feira, 12 de agosto de 2029 - Edição #108]''
+
+''Reitor da UFAC fala pela primeira vez sobre a Greve
+''
+Nesta quarta-feira mobilações sobre um possível protesto no campus tomam conta dos debates da UFAC. Segundo os líderes do movimento, a ideia surgiu dos próprios estudantes em conjunto com os coordenadores de departamento. 
+
+Segundo o Sindicato da UFAC, essa manifestação teria o propósito de pressionar a organização da universidade para firmar um acordo.
+
+''Estudantes furiosos com a suspensão do Renato Lanches
+''
+"Devolvam nosso açaí!", "Eu preciso do açaí!", "Vendi minha geladeira para comprar açaí!" Esses são alguns dos grupos proclamados por clientes órfãos da Renato Lanches. Já tivemos inúmeros pedidos de suspensão das medidas da Vigilância Sanitária, que ainda reluta em reabrir o estabelecimento.
+
+Segundo analises de laboratório, o açaí tinha bem mais que apenas açaí, mas não era um problema. "Nossas análises não indicaram nada estranho, mas por algum motivo todas as amostras acabaram, precisamos de mais açaí para continuar as análises", relata Dr. Tony, responsável do laboratório da Vigilância Sanitária.
+
+
+:: noticias-5 {"position":"1900,1000","size":"100,100"}
+''(b4r:"none","none","solid")+(b4r-colour:white)[Quinta-feira, 13 de agosto de 2029 - Edição #109]''
+
+''Protestos na UFAC
+''
+Protestos na Universidade Facultativa do Açude Médio do Centro tomam de conta de todas as vias do Campus. Estudantes e professores protestam com pedidos de um trem-bala entre todos os 8 setores, recreio prolongado e escala de aula 4x3.
+
+Segundo os organizadores, o intuito da mobilação é pressionar os líderes do campus para uma rápida resolução das demandas.
+
+''Após longa suspensão, Renato Lanches volta a ativa
+''
+Com 5 dias de suspensão, a lanchonete Renato Lanches abre novamente as portas para a comunidade, com filas que atravessam todo o setor 7. A liberação ocorreu após uma série de pedidos da comunidade, que alegava precisar do alimento para continuarem vivos.
+
+Para comemorar o retorno, a lanchonete do setor 7 reabriu com uma grande promoção no açaí base.
+
+
+
+:: noticias-6 {"position":"1900,1125","size":"100,100"}
+''(b4r:"none","none","solid")+(b4r-colour:white)[Sexta-feira, 14 de agosto de 2029 - Edição #110]
+''
+''Acordo entre a UFAC e Sindicato pode por fim a greve
+''
+Com movimentações acontecendo desde a última segunda, finalmente temos sinais de que a greve pode esta perto do fim. O acordo entre o Campus e o sindicato dos professores pode acontecer este fim de semana. 
+
+''Nova crise na Renato Lanches?
+''
+Após promoção agressiva de açaí, a lanchonete enfrenta um grande problema com clientes insatisfeitos com a falta de estoque do estabelecimento, com ameaças ao dono da pequena startup, que ainda não se pronunciou sobre os ataques recentes.
+
+
+:: noticias-7 {"position":"1900,1250","size":"100,100"}
+''(b4r:"none","none","solid")+(b4r-colour:white)[Segunda-feira, 17 de agosto de 2029 - Edição #111]''
+
+''Manifestações se intensificam em frente aos prédios da UFAC
+''
+As movimentações, que ocorrem desde a última segunda, se intensificaram na manha desta segunda-feira, com protestos em frente aos prédios.
+
+Ainda é previsto algumas reuniões promovidas pelos próprios estudantes para decidir novos termos do acordo.
+
+
+:: noticias-8 {"position":"1900,1375","size":"100,100"}
+(b4r:"none","none","solid")+(b4r-colour:white)[Segunda-feira, 17 de agosto de 2029 - Edição #111]
+
+''Fim da Greve na UFAC!
+''
+As movimentações, que ocorrem desde a última segunda, finalmente tiveram um fim com um acordo entre o Sindicato e a Reitoria do campus, que firmou o compromisso de aumentar o intervalo chamado por alguns estudantes de "recreio". 
+
+Ainda temos algumas contestações do sindicato, que alega que acordo foi firmado com um terceiro que suspeitam ser um aluno do campus.

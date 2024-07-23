@@ -12,29 +12,51 @@
 
 <p align ="center">
 <a href= "#sobre-este-projeto">🕹️ Sobre este projeto</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#consideracoes">🎮 Considerações</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#leitura">🏴‍☠️ Leitura e links recomendados</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#licenca">📝 Licença</a>
 </p>
 
 <hr>
 
 <h2 id = "sobre-este-projeto">🕹️ Sobre este projeto</h2>
-Este é apenas mais um template seguindo a temática de Dragon Ball. Seu nome remete a técnica "Shishin no Jen", do Tenshinhan, que cria clones de si.
 
 Link provisório da aplicação: https://livro-jogo-rho.vercel.app
 
-<hr>
-
-<h2 id="consideracoes">🎮 Considerações</h2>
-Eu sou bom com trocadilhos.
-
-<hr>
-
-<h2 id="leitura">🏴‍☠️ Leitura e links recomendados</h2>
-
-* [Shishin no Ken](https://dragonball.fandom.com/wiki/Multi-Form)
-
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop1.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop2.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop3.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop4.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop9.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop5.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop6.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop7.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop8.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop10.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop11.jpg" width="950px">
+</div>
+<div align="center">
+  <img src = "https://github.com/Arco-de-Treinamento/DNPJ-2024.1-IMD-UFRN/blob/main/images/greve-loop12.jpg" width="950px">
+</div>
 <hr>
 
 <h2 id="licenca">📝 Licença</h2>
